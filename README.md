@@ -6,6 +6,6 @@ This will show all logs in one windows ( Linux only)
 Pre requiste:
 Python3 & fabric.
 
-How to: Just replace your server IPs with IP1,IP2 ....
+How to: Just replace your server IPs with IP1,IP2 in fabfile.py
 example: 
 fab -P svrlist1tailf 
