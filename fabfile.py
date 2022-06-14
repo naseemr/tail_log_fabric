@@ -9,15 +9,15 @@ svrlist2 = ['IP1','IP2','IP3','IP4',  ..,'IPN']
 svrlist3 = ['IP1','IP2','IP3','IP4',  ..,'IPN']
 svrlist4 = ['IP1','IP2','IP3','IP4',  ..,'IPN']
 
-@hosts(lab1)
-def lab1tailf():
+@hosts(svrlist1)
+def svrlist1tailf():
         sudo(' tail -f /var/log/messages')
-@hosts(lab2)
-def lab2tailf():
+@hosts(svrlist2)
+def svrlist2tailf():
         sudo(' tail -f /var/log/messages')
-@hosts(lab3)
-def lab3tailf():
+@hosts(svrlist3)
+def svrlist3tailf():
         sudo(' tail -f /var/log/messages')
-@hosts(lab4)
-def lab4tailf():
+@hosts(svrlist4)
+def svrlist4tailf():
         sudo(' tail -f /var/log/messages')
