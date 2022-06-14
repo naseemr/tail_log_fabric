@@ -5,3 +5,7 @@ I created this to monitor log files in multile servers so I dont need to remotle
 This will show all logs in one windows ( inux only)
 Pre requiste:
 Python3 & fabric.
+
+How to:
+example: 
+fab -P svrlist1 
