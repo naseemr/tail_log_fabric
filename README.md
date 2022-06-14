@@ -8,4 +8,4 @@ Python3 & fabric.
 
 How to:
 example: 
-fab -P svrlist1 
+fab -P svrlist1tailf 
